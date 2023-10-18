@@ -1,0 +1,9 @@
+#faça um algoritmo que receba a velocidade em Km/h de um veiculo e:
+#se maior que 60km/h aplicar multa 7 vezes a da velocidade permitida
+km = int(input("digite a velocidade em km: "))
+n1 = 60
+multa = 60 * 7
+if km <= n1:
+    print ("limite de velocidade respeitado")
+else:
+    print (f" limite de velocidade nao respeitado , multa de {multa}")
